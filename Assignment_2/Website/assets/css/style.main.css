@@ -1,4 +1,99 @@
-*{
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
     margin: 0;
     padding: 0;
+}
+
+.navbar {
+    background-color: #8e44ad; /* Playful Purple */
+    color: #fff; /* White font color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+    font-weight: bold; /* Make the font bold */
+    font-size: 18px; /* Increase font size */
+}
+
+.nav-links a:hover {
+    color: #f1c40f; /* Vibrant Yellow on hover */
+}
+
+/* Adjust hamburger menu icon styles */
+.burger {
+    display: none; /* Initially hidden */
+    color: #fff; /* White font color */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row; /* Set flex direction to row for phone screens */
+        justify-content: space-between; /* Add space between elements */
+    }
+
+    .logo {
+        order: 1; /* Move the logo to the left */
+    }
+
+    .burger {
+        display: block; /* Show the burger icon on smaller screens */
+        order: 2; /* Move the burger icon to the right */
+    }
+
+    .nav-links {
+        display: none; /* Hide the nav links on smaller screens */
+        flex-direction: column;
+        background-color: #8e44ad; /* Playful Purple */
+        position: absolute;
+        top: 50px;
+        right: 0; /* Aligning the nav links to the right side */
+        width: 30%; /* Set width to 30% */
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+    .nav-links.show {
+        display: flex; /* Show the nav links when .show class is added */
+        flex-direction: column;
+        background-color: #8e44ad; /* Playful Purple */
+        position: absolute;
+        top: 5.7%; /* Adjust as needed based on your header height */
+        right: 0;
+        width: 30%;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 }
