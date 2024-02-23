@@ -6,14 +6,16 @@ body {
     padding: 0;
 }
 
+/* navbar css */
+
 .navbar {
     background-color: #8e44ad; /* Playful Purple */
-    color: #fff; /* White font color */
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
@@ -35,36 +37,43 @@ body {
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
-    font-weight: bold; /* Make the font bold */
-    font-size: 18px; /* Increase font size */
+    font-weight: bold;
+    /* Make the font bold */
+    font-size: 18px;
+    /* Increase font size */
 }
 
 .nav-links a:hover {
-    color: #f1c40f; /* Vibrant Yellow on hover */
+    color: #f1c40f;
+    /* Vibrant Yellow on hover */
 }
 
 /* Adjust hamburger menu icon styles */
 .burger {
-    display: none; /* Initially hidden */
-    color: #fff; /* White font color */
+    display: none;
+    /* Initially hidden */
+    color: #fff;
+    /* White font color */
     font-size: 24px;
     cursor: pointer;
 }
 
+/* navbar css end */
+
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: row; /* Set flex direction to row for phone screens */
-        justify-content: space-between; /* Add space between elements */
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .logo {
-        order: 1; /* Move the logo to the left */
+        order: 1;
     }
 
     .burger {
-        display: block; /* Show the burger icon on smaller screens */
-        order: 2; /* Move the burger icon to the right */
+        display: block;
+        order: 2;
     }
 
     .nav-links {
@@ -74,21 +83,21 @@ body {
         position: absolute;
         top: 50px;
         right: 0; /* Aligning the nav links to the right side */
-        width: 30%; /* Set width to 30% */
+        width: 30%;
         padding: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links.show {
-        display: flex; /* Show the nav links when .show class is added */
+        display: flex;
         flex-direction: column;
         background-color: #8e44ad; /* Playful Purple */
         position: absolute;
-        top: 5.7%; /* Adjust as needed based on your header height */
+        top: 5.7%;
         right: 0;
         width: 30%;
         padding: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links li {
