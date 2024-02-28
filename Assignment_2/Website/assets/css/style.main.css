@@ -16,6 +16,7 @@ html {
 
 .navbar {
     background: transparent; /* Set background to transparent */
+    backdrop-filter: blur(10px);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -280,10 +281,62 @@ html {
         margin: 0 5%;
     }
 }
+/* hero section css end */
 
+.vr-container-1{
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
 
+.vr-sticky {
+    width: 80%;
+    margin: 50px auto;
+    clear: both;
+}
 
- 
+.vr-sticky::before,
+.vr-sticky::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sticky-image {
+    width: 500px;
+    height: 500px;
+    background: #222; /* Dark background color */
+    display: inline-block;
+    float: left;
+    position: sticky;
+    top: 20%;
+}
+
+.sticky-image img {
+    width: 500px;
+    height: 500px;
+}
+
+.sticky-text {
+    width: 750px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.sticky-text div {
+    height: 300px;
+    text-align: center;
+    margin-top: 11%;
+    padding: 10%;
+}
+
+.sticky-text div+p {
+    color: #aaa; /* Lighter text color */
+}
+
+.sticky-text div + div {
+    margin-top: 50px;
+}
 
 /* .hero-section {
     position: relative;
