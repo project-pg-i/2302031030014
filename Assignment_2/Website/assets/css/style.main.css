@@ -21,7 +21,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding: 18px 50px;
     box-shadow: none; /* Remove box shadow */
     position: fixed;
     top: 0;
@@ -283,14 +283,18 @@ html {
 }
 /* hero section css end */
 
-.vr-container-1{
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Light text color */
+
+
+
+ /* .vr-container-1{
+    background: radial-gradient(circle, rgba(31,14,26,1) 0%, rgba(19,8,25,1) 100%);; 
+    color: #E5E7EB;
+    padding: 50px 0;
 }
 
 .vr-sticky {
     width: 80%;
-    margin: 50px auto;
+    margin: 0 50px;
     clear: both;
 }
 
@@ -304,7 +308,7 @@ html {
 .sticky-image {
     width: 500px;
     height: 500px;
-    background: #222; /* Dark background color */
+    background: #222; 
     display: inline-block;
     float: left;
     position: sticky;
@@ -331,12 +335,17 @@ html {
 }
 
 .sticky-text div+p {
-    color: #aaa; /* Lighter text color */
+    color: #aaa; 
 }
 
 .sticky-text div + div {
     margin-top: 50px;
-}
+}  */
+
+
+
+
+
 
 /* .hero-section {
     position: relative;
