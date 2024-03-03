@@ -1,17 +1,17 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #241F21;
 }
 
@@ -19,14 +19,16 @@ body{
 /* navbar css */
 
 .navbar {
-    background: transparent; /* Set background to transparent */
+    background: transparent;
+    /* Set background to transparent */
     /* backdrop-filter: blur(10px); */
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 18px 50px;
-    box-shadow: none; /* Remove box shadow */
+    box-shadow: none;
+    /* Remove box shadow */
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,24 +56,30 @@ body{
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
-    font-weight: bold; /* Make the font bold */
-    font-size: 18px; /* Increase font size */
+    font-weight: bold;
+    /* Make the font bold */
+    font-size: 18px;
+    /* Increase font size */
 }
 
 /* Highlighted home button */
 .nav-links a.active {
-    color: #f1c40f; /* Vibrant Yellow */
+    color: #f1c40f;
+    /* Vibrant Yellow */
 }
 
 .nav-links a:hover {
-    color: #f1c40f; /* Vibrant Yellow on hover */
+    color: #f1c40f;
+    /* Vibrant Yellow on hover */
 }
 
 
 /* Adjust hamburger menu icon styles */
 .burger {
-    display: none; /* Initially hidden */
-    color: #fff; /* White font color */
+    display: none;
+    /* Initially hidden */
+    color: #fff;
+    /* White font color */
     font-size: 24px;
     cursor: pointer;
 }
@@ -86,40 +94,47 @@ body{
     background-size: cover;
     background-position: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
+}
+
 
 .hero {
     height: 100vh;
     display: flex;
-    align-items: flex-start; /* Align hero-content to the top */
+    align-items: flex-start;
+    /* Align hero-content to the top */
     position: relative;
-    
+
 }
 
 .hero-content {
     z-index: 1;
     width: 50%;
     margin-left: 4%;
-    margin-top: 16vh; /* Adjust margin from top */
+    margin-top: 16vh;
+    /* Adjust margin from top */
     color: #fff;
     text-align: center;
 }
 
 .hero-content h1 {
-    font-size: 71px; /* Increase font size for company name */
+    font-size: 71px;
+    /* Increase font size for company name */
     margin-bottom: 27px;
-    font-family: 'Arial', sans-serif; /* Use different font family */
-    font-style: italic; /* Add italic style */
-    
+    font-family: 'Arial', sans-serif;
+    /* Use different font family */
+    font-style: italic;
+    /* Add italic style */
+
 }
 
-.hero-content h1 span{
-    color: #f1c40f; /* Yellow color */
+.hero-content h1 span {
+    color: #f1c40f;
+    /* Yellow color */
 }
 
 .hero-content p {
-    font-size: 28px; /* Increase font size for description */
+    font-size: 28px;
+    /* Increase font size for description */
     margin-bottom: 30px;
 }
 
@@ -134,9 +149,9 @@ body{
     margin-left: 17.5%;
     margin-bottom: 3%;
     max-width: 61%;
-  }
-  
-  .webflow-style-input:after {
+}
+
+.webflow-style-input:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -150,9 +165,9 @@ body{
     background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
     background-size: 500% auto;
     animation: gradient 3s linear infinite;
-  }
-  
-  .webflow-style-input input {
+}
+
+.webflow-style-input input {
     flex-grow: 1;
     color: #BFD2FF;
     font-size: 1.6rem;
@@ -161,13 +176,13 @@ body{
     border: none;
     background: transparent;
     outline: none;
-  }
-  
-  .webflow-style-input input::-webkit-input-placeholder {
+}
+
+.webflow-style-input input::-webkit-input-placeholder {
     color: #7881A1;
-  }
-  
-  .webflow-style-input button {
+}
+
+.webflow-style-input button {
     color: #7881A1;
     font-size: 2.4rem;
     line-height: 2.4rem;
@@ -177,11 +192,11 @@ body{
     border: none;
     outline: none;
     transition: color 0.25s;
-  }
-  
-  .webflow-style-input button:hover {
+}
+
+.webflow-style-input button:hover {
     color: #BFD2FF;
-  }
+}
 
 .button-53 {
     background-color: #3DD1E7;
@@ -208,13 +223,13 @@ body{
     -webkit-user-select: none;
     touch-action: manipulation;
     left: 19%;
-  }
-  
-  .button-53:focus {
+}
+
+.button-53:focus {
     outline: 0;
-  }
-  
-  .button-53:after {
+}
+
+.button-53:after {
     content: '';
     position: absolute;
     border: 1px solid #000000;
@@ -222,22 +237,22 @@ body{
     left: 4px;
     width: calc(100% - 1px);
     height: calc(100% - 1px);
-  }
-  
-  .button-53:hover:after {
+}
+
+.button-53:hover:after {
     bottom: 2px;
     left: 2px;
-  }
+}
 
 
-  /* Add these styles to your existing CSS file */
+/* Add these styles to your existing CSS file */
 
-  #animation-container{
+#animation-container {
     max-width: 8rem;
     margin-left: 68%;
     margin-top: -4rem;
-  }
-  
+}
+
 
 /* Position the container */
 .container {
@@ -275,21 +290,24 @@ body{
         width: 90%;
         margin: 0 5%;
     }
-    50% {
+
+    64% 50% {
         width: 60%;
         margin: 0 18%;
     }
+
     100% {
         width: 90%;
         margin: 0 5%;
     }
 }
+
 /* hero section css end */
 
 
 
 
- /* .vr-container-1{
+/* .vr-container-1{
     background: radial-gradient(circle, rgba(31,14,26,1) 0%, rgba(19,8,25,1) 100%);; 
     color: #E5E7EB;
     padding: 50px 0;
@@ -431,8 +449,11 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
     height: 660px;
     width: 1114px;
+    height: 64.5%;
+    min-width: 77.4%;
     border-radius: 14px;
     display: flex;
+    padding: 10px;
 }
 
 #tours_hero_section .main_contain .vr_vtc_img,
@@ -470,7 +491,7 @@ body{
 #tours_hero_section .main_contain .vr_vtc_text h3,
 #tours_hero_section .main_contain .vr_vtc_text p,
 #tours_hero_section .main_contain .vr_vtc_text a {
-    padding: 20px 0; 
+    padding: 20px 0;
 }
 
 
@@ -494,52 +515,152 @@ body{
     text-decoration: none;
 }
 
-#tours_hero_section .main_contain .vr_vtc_text a svg{
+#tours_hero_section .main_contain .vr_vtc_text a svg {
     width: 16%;
     margin-bottom: -11px;
     margin-left: 3px;
 }
 
+/* tours css end here */
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* blog css start here */
+
+.container_blog {
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
 
 
+#blog_section {
+    display: flex;
+    justify-content: center;
+    /* Center the section horizontally */
+    margin-top: 70px;
+    padding: 30px 16px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#blog_section .latest_blog {
+    width: 64%;
+    height: 87vh;
+    margin-right: 17px;
+}
+
+#blog_section .latest_blog .latest_blog_img img {
+    width: 100%;
+    height: 664px;
+    border-radius: 14px;
+}
+
+#blog_section .latest_blog .latest_blog_text {
+    margin-left: 20px;
+    margin-right: 64px;
+    margin-top: 13px;
+}
+
+#blog_section .latest_blog .latest_blog_text h3,
+#blog_section .latest_blog .latest_blog_text h2,
+#blog_section .latest_blog .latest_blog_text p {
+    margin-bottom: 24px;
+}
+
+#blog_section .latest_blog .latest_blog_text h3,
+#blog_section .latest_blog .latest_blog_text h2 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#blog_section .latest_blog .latest_blog_text h3 {
+    color: #FFFFCC;
+}
+
+#blog_section .latest_blog .latest_blog_text h2 {
+    color: #E6E6FA;
+}
+
+#blog_section .latest_blog .latest_blog_text p {
+    color: #ffffff;
+    font-size: medium;
+}
+
+#blog_section .popular_blog {
+    width: 36%;
+}
+
+#blog_section .popular_blog .popular_blog_contain {
+    color: #fff;
+    margin-bottom: 34px;
+
+}
+
+#blog_section .popular_blog .popular_blog_contain .popular_blog_img img {
+    width: 100%;
+    height: 316px;
+    border-radius: 14px;
+    margin-bottom: 13px;
+}
+
+#blog_section .popular_blog .popular_blog_contain .popular_blog_text p {
+    margin-bottom: 30px;
+    color: #E6E6FA;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
-
+/* blog css start here */
 
 
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1440px) {
     .page-container {
-        background-position: 60% center; /* Change background position for smaller screens */
-      }
+        background-position: 60% center;
+        /* Change background position for smaller screens */
+    }
+
     .hero-content {
         width: 60%;
     }
+
     .webflow-style-input {
         margin-left: 14.5%;
         max-width: 71%;
     }
+
     .button-53 {
         max-width: 64%;
         left: 18%;
     }
+
     #animation-container {
         margin-left: 70%;
+    }
+
+    #blog_section {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .page-container {
-        background-position: 70% center; /* Change background position for smaller screens */
-      }
+        background-position: 70% center;
+        /* Change background position for smaller screens */
+    }
+
     .hero-content {
         width: 70%;
     }
+
     .webflow-style-input {
         margin-left: 9.5%;
         max-width: 81%;
     }
+
     .button-53 {
         max-width: 66%;
     }
@@ -547,32 +668,42 @@ body{
 
 @media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: row; /* Set flex direction to row for phone screens */
-        justify-content: space-between; /* Add space between elements */
-        padding: 10px 20px; /* Adjust padding */
+        flex-direction: row;
+        /* Set flex direction to row for phone screens */
+        justify-content: space-between;
+        /* Add space between elements */
+        padding: 10px 20px;
+        /* Adjust padding */
     }
 
     .logo {
-        order: 1; /* Move the logo to the left */
+        order: 1;
+        /* Move the logo to the left */
     }
 
     .burger {
-        display: block; /* Show the burger icon on smaller screens */
-        order: 2; /* Move the burger icon to the right */
-        color: #fff; /* White font color */
+        display: block;
+        /* Show the burger icon on smaller screens */
+        order: 2;
+        /* Move the burger icon to the right */
+        color: #fff;
+        /* White font color */
         font-size: 24px;
         cursor: pointer;
     }
 
     .nav-links {
-        display: none; /* Hide the nav links on smaller screens */
+        display: none;
+        /* Hide the nav links on smaller screens */
         flex-direction: column;
         background: transparent;
-        backdrop-filter: blur(10px); /* Add blur effect */
+        backdrop-filter: blur(10px);
+        /* Add blur effect */
         position: absolute;
         top: 45px;
         right: 6px;
-        width: 30%; /* Adjust width */
+        width: 30%;
+        /* Adjust width */
         padding: 5px 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-left: 1px solid white;
@@ -589,50 +720,58 @@ body{
         margin-bottom: 10px;
         text-align: center;
         padding: 10px 4px;
-     border-bottom: 1px solid white;
+        border-bottom: 1px solid white;
     }
 
     .nav-links a {
         text-decoration: none;
-        color: #fff; /* White font color */
+        color: #fff;
+        /* White font color */
         font-size: 18px;
     }
 
     .nav-links a:hover {
-        color: #f1c40f; /* Vibrant Yellow on hover */
+        color: #f1c40f;
+        /* Vibrant Yellow on hover */
     }
 
     .page-container {
-        background-position: 75% center; /* Change background position for smaller screens */
-      }
+        background-position: 75% center;
+        /* Change background position for smaller screens */
+    }
 
-      .hero-content {
+    .hero-content {
         width: 90%;
         margin-left: 5%;
         text-align: left;
     }
+
     .hero-content h1 span {
         margin-left: 9rem;
     }
+
     .hero-content p {
         margin-bottom: 37px;
     }
+
     .webflow-style-input {
         margin-left: 0;
         max-width: 79%;
     }
+
     .webflow-style-input input {
         font-size: 1.5rem;
         max-width: 90%;
     }
-   
+
     .button-53 {
         padding: .75rem 3rem;
         font-size: 1.25rem;
         max-width: 70%;
         left: 2rem;
-      }
-      #animation-container {
+    }
+
+    #animation-container {
         margin-left: 63%;
     }
 }
@@ -641,32 +780,41 @@ body{
     .nav-links {
         width: 50%;
     }
+
     .hero-content {
         width: 100%;
     }
+
     .hero-content h1 span {
         margin-left: 0;
     }
+
     .webflow-style-input {
         max-width: 91%;
     }
+
     .webflow-style-input {
         margin-bottom: 7%;
     }
+
     .webflow-style-input input {
         font-size: 1.3rem;
     }
+
     .webflow-style-input button {
         font-size: 1.5rem;
     }
+
     .button-53 {
         font-size: 1.45rem;
         max-width: 85%;
         left: 1rem;
     }
+
     #animation-container {
         margin-left: 71%;
     }
+
     .container {
         top: 80%;
         left: 50%;
@@ -677,9 +825,11 @@ body{
     .hero-content {
         width: 95%;
     }
+
     .hero-content h1 {
         font-size: 54px;
     }
+
     .webflow-style-input {
         max-width: 93%;
     }
