@@ -1,97 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       /* *{
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-       } 
-       header{
-        height: 200px;
-        background: #bbb;
-        text-align: center;
-        padding: 30px 0;
-       } */
-       .container{
-        width: 80%;
-        margin: 50px auto;
-        clear: both;
-       }
-       .container::before, .container::after{
-        content: '';
-        display: table;
-        clear: both;
-       }
-       .right{
-        width: 750px;
-        display: inline-block;
-        vertical-align: top;
-        float: right;
-       }
-       .right div{
-        background-color: #a1a1a1;
-        height: 300px;
-       }
-       .right div + div{
-        margin-top: 50px;
-       } 
-       .left{
-        width: 500px;
-        height: 500px;
-        background: #bbb;
-        display: inline-block;
-        float: left;
-        position: sticky;
-        top: 20%;
-       }
-    </style>
+    <title>Campus Events</title>
+    <link rel="icon" href="./assets/img/logo/logo_circle.png" type="image/jpg" sizes="200x200" />
+    <link rel="stylesheet" href="./assets/css/style.main.css">
+    <link rel="stylesheet" href="./assets/css/style.main.scss">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <h1>Sticky Div/Sidebar on Scroll</h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
 
-    <div class="container">
-        <div class="left"></div>
-        <div class="right">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div> 
-            <div></div>
+    <!-- header  -->
+    <nav class="navbar">
+        <div class="logo">
+            <!-- logo name with different font -->
+            <span class="logo-text" style="font-family: 'Arial', sans-serif;">Campa</span>
         </div>
-    </div>
+        <ul class="nav-links">
+            <!-- Highlighted home button -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./tours.html">Virtual Tours</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a class="active" href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <!-- Hamburger menu icon for smaller screens -->
+        <div class="burger">
+            <i class="fas fa-outdent"></i>
+        </div>
+    </nav>
 
-
-    <header>
-        <h1></h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
-    <header>
-        <h1></h1>
-    </header>
     
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+    <script src="./assets/js/script.main.js"></script>
 </body>
+
 </html>

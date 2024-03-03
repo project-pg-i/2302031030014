@@ -11,12 +11,16 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+    background-color: #241F21;
+}
+
 
 /* navbar css */
 
 .navbar {
     background: transparent; /* Set background to transparent */
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -78,7 +82,6 @@ html {
 /* hero-section css */
 
 .page-container {
-    background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
     background-image: url('/Website/assets/img/bg_image/main_bg.jpg');
     background-size: cover;
     background-position: center;
@@ -407,6 +410,103 @@ html {
 
 
 /* hero-section css end */
+
+/* index css end here */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* tours css start here */
+
+#tours_hero_section {
+    background-image: url(/Website/assets/img/tour_image/main_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tours_hero_section .main_contain {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 660px;
+    width: 1114px;
+    border-radius: 14px;
+    display: flex;
+}
+
+#tours_hero_section .main_contain .vr_vtc_img,
+#tours_hero_section .main_contain .vr_vtc_text {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    color: #fff;
+    opacity: 1;
+}
+
+#tours_hero_section .main_contain .vr_vtc_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tours_hero_section .main_contain .vr_vtc_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tours_hero_section .main_contain .vr_vtc_text {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    color: #fff;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#tours_hero_section .main_contain .vr_vtc_text h3,
+#tours_hero_section .main_contain .vr_vtc_text p,
+#tours_hero_section .main_contain .vr_vtc_text a {
+    padding: 20px 0; 
+}
+
+
+#tours_hero_section .main_contain .vr_vtc_text h3 {
+    font-size: 48px;
+}
+
+#tours_hero_section .main_contain .vr_vtc_text p,
+#tours_hero_section .main_contain .vr_vtc_text a {
+    font-size: 24px;
+}
+
+#tours_hero_section .main_contain .vr_vtc_text a {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    width: 40%;
+    fill: #fff;
+    text-decoration: none;
+}
+
+#tours_hero_section .main_contain .vr_vtc_text a svg{
+    width: 16%;
+    margin-bottom: -11px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1440px) {
