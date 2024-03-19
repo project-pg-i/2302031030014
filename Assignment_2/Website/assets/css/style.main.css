@@ -20,15 +20,13 @@ body {
 
 .navbar {
     background: transparent;
-    /* Set background to transparent */
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 18px 50px;
     box-shadow: none;
-    /* Remove box shadow */
     position: fixed;
     top: 0;
     width: 100%;
@@ -57,29 +55,20 @@ body {
     color: inherit;
     transition: color 0.3s ease;
     font-weight: bold;
-    /* Make the font bold */
     font-size: 18px;
-    /* Increase font size */
 }
 
-/* Highlighted home button */
 .nav-links a.active {
     color: #f1c40f;
-    /* Vibrant Yellow */
 }
 
 .nav-links a:hover {
     color: #f1c40f;
-    /* Vibrant Yellow on hover */
 }
 
-
-/* Adjust hamburger menu icon styles */
 .burger {
     display: none;
-    /* Initially hidden */
     color: #fff;
-    /* White font color */
     font-size: 24px;
     cursor: pointer;
 }
@@ -101,7 +90,6 @@ body {
     height: 100vh;
     display: flex;
     align-items: flex-start;
-    /* Align hero-content to the top */
     position: relative;
 
 }
@@ -111,30 +99,24 @@ body {
     width: 50%;
     margin-left: 4%;
     margin-top: 16vh;
-    /* Adjust margin from top */
     color: #fff;
     text-align: center;
 }
 
 .hero-content h1 {
     font-size: 71px;
-    /* Increase font size for company name */
     margin-bottom: 27px;
     font-family: 'Arial', sans-serif;
-    /* Use different font family */
     font-style: italic;
-    /* Add italic style */
 
 }
 
 .hero-content h1 span {
     color: #f1c40f;
-    /* Yellow color */
 }
 
 .hero-content p {
     font-size: 28px;
-    /* Increase font size for description */
     margin-bottom: 30px;
 }
 
@@ -429,10 +411,6 @@ body {
 
 /* hero-section css end */
 
-/* index css end here */
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
 /* tours css start here */
 
 #tours_hero_section {
@@ -485,7 +463,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 #tours_hero_section .main_contain .vr_vtc_text h3,
@@ -523,20 +500,16 @@ body {
 
 /* tours css end here */
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
 /* blog css start here */
 
 .container_blog {
     margin: 0 auto;
-    /* Center the container horizontally */
 }
 
 
 #blog_section {
     display: flex;
     justify-content: center;
-    /* Center the section horizontally */
     margin-top: 70px;
     padding: 30px 16px;
     width: 80%;
@@ -614,11 +587,10 @@ body {
 
 /* blog css start here */
 
-
 /* about section start */
 
 #about_main {
-    margin-top: 70px;
+    margin-top: 80px;
     padding: 0 42px;
 }
 
@@ -662,7 +634,7 @@ body {
   #about_main .about_text05 h2 {
     color: #F08080;
     font-size: 48px;
-    font-weight: 600; /* semi-bold */
+    font-weight: 600;
     padding-top: 12px;
   }
   
@@ -690,7 +662,7 @@ body {
   #about_main .lower_container h2 {
     color: #F08080;
     font-size: 48px;
-    font-weight: 600; /* semi-bold */
+    font-weight: 600; 
   }
   
   #about_main .lower_container p {
@@ -714,13 +686,184 @@ body {
 
 /* about section end */
 
+/* contact section start */
+
+#contact_main {
+    margin-top: 70px;
+    padding: 50px 65px;
+}
+
+#contact_main .contact_text01 {
+    color: #ffffff; 
+    font-size: 24px;
+}
+
+#contact_main .contact_text01 span {
+    color: #f1c40f; 
+}
+
+#contact_main .contact_contain {
+    display: flex; 
+}
+
+#contact_main .contain_left {
+    width: 65%; 
+    padding: 20px 30px 0 0;
+}
+
+#contact_main .contain_right {
+    width: 35%; 
+    padding-top: 20px;
+}
+
+#contact_main .contain_form {
+    display: flex; 
+    flex-wrap: wrap; 
+    background-color: rgba(224, 255, 255, 0.1);
+    border-radius: 14px;
+    padding: 44px 54px;
+}
+
+#contact_main .contain_form h5 {
+    font-size: 14px; 
+    color: #ffffff; 
+    padding-bottom: 15px;
+}
+
+#contact_main .contain_form h3 {
+    font-size: 24px; 
+    color: #f08080; 
+    padding-bottom: 22px;
+}
+
+#contact_main .contain_form input[type="text"],
+#contact_main .contain_form input[type="email"],
+#contact_main .contain_form textarea {
+    border: 1px solid #e6e6fa; 
+    color: #ffdab9; 
+    flex-grow: 1; 
+    background-color: transparent; 
+    margin-right: 10px; 
+    margin-bottom: 22px;
+    padding: 8px;
+    width: 100%;
+}
+
+#contact_main .contain_form ::placeholder {
+    color: #ffdab9; 
+}
+
+#contact_main .contain_form button[type="submit"] {
+    border: 1px solid #e6e6fa; 
+    color: #ffdab9; 
+    background-color: #241f21; 
+    padding: 13px 28px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#contact_main .contain_text01{
+    margin-top: 30px;
+}
+#contact_main .contain_text01 h2 {
+    color: #f08080; 
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+#contact_main .contain_text01 p {
+    color: #ffffff; 
+    font-size: 24px;
+}
+
+#contact_main .contain_map iframe {
+    width: 460px; 
+    height: 282px; 
+    border-radius: 14px;
+}
+
+#contact_main .contain_info {
+    margin-top: 24px;
+}
+#contact_main .contain_info h2 {
+    color: #f08080; 
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+#contact_main .contain_info p {
+    color: #ffdab9; 
+    font-size: 20px;
+}
+
+#contact_main .contain_info .text03 span,
+#contact_main .contain_info .text04 span {
+    color: #ffffff; 
+}
+
+
+/* contact section end */
+
+/* 404 start */
+
+#error_page .error_page_contain {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#error_page .error_page_contain h2 {
+    font-size: 96px;
+    color: #F08080;
+}
+
+#error_page .error_page_contain p {
+    font-size: 24px;
+    color: #E6E6FA;
+    max-width: 52rem;
+    margin: auto;
+    text-align: left;
+    font-weight: 700;
+}
+
+#error_page .error_page_base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#error_page .error_page_base button {
+    background-color: rgba(217, 217, 217, 0.1);
+    color: #ffffff;
+    border: 1px solid #E6E6FA;
+    font-size: 40px;
+    width: 320px;
+    height: 100px;
+    border-radius: 14px;
+    font-weight: 800;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#error_page .error_page_base button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#error_page .error_page_base picture img {
+    width: 551px;
+    height: 596px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* 404 end */
 
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1440px) {
     .page-container {
         background-position: 60% center;
-        /* Change background position for smaller screens */
     }
 
     .hero-content {
@@ -749,7 +892,6 @@ body {
 @media screen and (max-width: 1024px) {
     .page-container {
         background-position: 70% center;
-        /* Change background position for smaller screens */
     }
 
     .hero-content {
@@ -769,41 +911,31 @@ body {
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: row;
-        /* Set flex direction to row for phone screens */
         justify-content: space-between;
-        /* Add space between elements */
         padding: 10px 20px;
-        /* Adjust padding */
     }
 
     .logo {
         order: 1;
-        /* Move the logo to the left */
     }
 
     .burger {
         display: block;
-        /* Show the burger icon on smaller screens */
         order: 2;
-        /* Move the burger icon to the right */
         color: #fff;
-        /* White font color */
         font-size: 24px;
         cursor: pointer;
     }
 
     .nav-links {
         display: none;
-        /* Hide the nav links on smaller screens */
         flex-direction: column;
         background: transparent;
         backdrop-filter: blur(10px);
-        /* Add blur effect */
         position: absolute;
         top: 45px;
         right: 6px;
         width: 30%;
-        /* Adjust width */
         padding: 5px 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         border-left: 1px solid white;
@@ -826,18 +958,15 @@ body {
     .nav-links a {
         text-decoration: none;
         color: #fff;
-        /* White font color */
         font-size: 18px;
     }
 
     .nav-links a:hover {
         color: #f1c40f;
-        /* Vibrant Yellow on hover */
     }
 
     .page-container {
         background-position: 75% center;
-        /* Change background position for smaller screens */
     }
 
     .hero-content {
